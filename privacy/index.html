@@ -3,365 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Política de Privacidade — UAITERE DECORACOES LTDA">
-  <title>Política de Privacidade | Uaitere Decorações</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='14' fill='%23847058'/><text y='.92em' font-size='62' font-family='serif' font-weight='700' fill='%23faf6ef' x='28'>U</text></svg>">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Política de Privacidade - Uaitere Decorações">
+  <meta name="robots" content="noindex, follow">
+  <title>Política de Privacidade – UAITERE DECORACOES LTDA</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='8' fill='%235f6b3c'/><text y='.9em' font-size='40' font-family='sans-serif' font-weight='800' fill='%23e0a172' x='16'>UD</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
-      --terra: #847058;
-      --terra-dark: #5e4f3d;
-      --terra-light: #b8a489;
-      --olive: #6b7556;
-      --olive-dark: #4f583f;
-      --olive-soft: #c7cdbb;
-      --cream: #faf6ef;
-      --cream-dark: #f0e9dc;
-      --sand: #ebe1cf;
-      --white: #ffffff;
-      --ink: #2a241e;
-      --ink-soft: #5e524a;
-      --line: rgba(132,112,88,0.18);
-      --font-display: 'Fraunces', serif;
-      --font-body: 'Manrope', sans-serif;
+      --primary: #5f6b3c; --primary-dark: #4a542e; --primary-deep: #343c1f;
+      --accent: #c9794a; --accent-dark: #a85d31; --accent-light: #e0a172;
+      --bg: #f6f5ef; --bg-2: #e7e7d8; --paper: #fafbfc; --white: #ffffff;
+      --ink: #2f3320; --ink-soft: #4f5340; --grey: #868a76;
+      --line: rgba(95,107,60,0.16);
+      --font-display: 'Cormorant Garamond', serif; --font-body: 'Outfit', sans-serif;
     }
     html { scroll-behavior: smooth; }
-    body { font-family: var(--font-body); background: var(--cream); color: var(--ink); overflow-x: hidden; }
-    ::-webkit-scrollbar { width: 8px; }
-    ::-webkit-scrollbar-track { background: var(--sand); }
-    ::-webkit-scrollbar-thumb { background: var(--terra); border-radius: 4px; }
-
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-      display: flex; justify-content: space-between; align-items: center;
-      padding: 0 4vw; height: 80px;
-      background: rgba(250,246,239,0.96);
-      backdrop-filter: blur(14px);
-      border-bottom: 1px solid var(--line);
-    }
-    .nav-logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
-    .nav-logo-badge {
-      width: 48px; height: 48px; border-radius: 14px;
-      background: var(--terra);
-      display: flex; align-items: center; justify-content: center;
-      font-family: var(--font-display); font-size: 22px; color: var(--cream); font-weight: 700;
-    }
-    .nav-logo-text { font-family: var(--font-display); font-size: 1.4rem; color: var(--ink); font-weight: 700; letter-spacing: -0.3px; }
-    .nav-logo-text span { color: var(--terra); font-style: italic; font-weight: 500; }
-    .nav-back {
-      font-family: var(--font-body); font-size: 0.84rem; font-weight: 500;
-      color: var(--ink-soft); text-decoration: none; letter-spacing: 0.3px;
-      display: flex; align-items: center; gap: 6px; transition: color 0.25s;
-    }
-    .nav-back:hover { color: var(--terra); }
-
-    .page-header {
-      min-height: 300px; display: flex; align-items: center;
-      padding: 140px 4vw 70px;
-      background:
-        radial-gradient(ellipse 60% 50% at 80% 30%, var(--sand) 0%, transparent 60%),
-        radial-gradient(ellipse 50% 60% at 10% 80%, var(--olive-soft) 0%, transparent 55%),
-        var(--cream);
-      border-bottom: 1px solid var(--line);
-    }
-    .page-header-inner { max-width: 860px; margin: 0 auto; width: 100%; padding: 0 2rem; }
-    .page-header-kicker {
-      display: inline-flex; align-items: center; gap: 10px;
-      font-family: var(--font-body); font-size: 0.78rem; font-weight: 600;
-      letter-spacing: 2.5px; text-transform: uppercase; color: var(--terra);
-      margin-bottom: 1rem;
-    }
-    .page-header-kicker::before { content: ''; display: block; width: 30px; height: 1px; background: var(--terra); }
-    .page-header h1 {
-      font-family: var(--font-display);
-      font-size: clamp(2.4rem, 5vw, 4rem);
-      font-weight: 500; letter-spacing: -1px; line-height: 1.1;
-      color: var(--ink); margin-bottom: 1.2rem;
-    }
-    .page-header h1 em { color: var(--terra); font-weight: 600; font-style: italic; }
-    .page-header-meta {
-      display: inline-flex; align-items: center; gap: 12px;
-      background: var(--white); border: 1px solid var(--terra-light);
-      padding: 0.5rem 1.2rem; border-radius: 30px;
-      font-family: var(--font-body); font-size: 0.8rem; font-weight: 600;
-      color: var(--terra-dark); letter-spacing: 0.5px;
-    }
-
-    .content {
-      max-width: 860px; margin: 0 auto; padding: 4rem 2rem 6rem;
-    }
-
-    .update-badge {
-      display: inline-flex; align-items: center; gap: 10px;
-      background: var(--sand); border-left: 3px solid var(--terra);
-      padding: 0.75rem 1.3rem; border-radius: 0 8px 8px 0;
-      font-family: var(--font-body); font-size: 0.83rem; color: var(--terra-dark);
-      font-style: italic; margin-bottom: 2.8rem;
-    }
-    .update-badge::before { content: '📅'; font-style: normal; }
-
-    .privacy-card {
-      background: var(--white); border-radius: 16px;
-      padding: 2.4rem 2.2rem; margin-bottom: 1.4rem;
-      box-shadow: 0 2px 10px rgba(132,112,88,0.05);
-      border-top: 3px solid transparent;
-      transition: box-shadow 0.3s, border-top-color 0.3s;
-    }
-    .privacy-card:hover { box-shadow: 0 10px 30px rgba(132,112,88,0.12); border-top-color: var(--terra-light); }
-    .card-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.2rem; }
-    .card-num {
-      font-family: var(--font-display); font-size: 0.85rem; color: var(--olive);
-      font-style: italic; font-weight: 500; white-space: nowrap;
-    }
-    .card-title {
-      font-family: var(--font-display); font-size: 1.3rem; color: var(--ink); font-weight: 600;
-    }
-    .privacy-card p { font-size: 0.96rem; line-height: 1.8; color: var(--ink-soft); margin-bottom: 0.8rem; }
-    .privacy-card p:last-child { margin-bottom: 0; }
-    .privacy-card ul { padding-left: 1.4rem; margin-top: 0.5rem; margin-bottom: 0.8rem; }
-    .privacy-card ul li { font-size: 0.96rem; line-height: 1.75; color: var(--ink-soft); margin-bottom: 0.35rem; }
-    .privacy-card strong { color: var(--terra-dark); font-weight: 600; }
-
-    .company-block {
-      background: var(--sand); border-left: 3px solid var(--terra);
-      padding: 1.1rem 1.4rem; border-radius: 0 10px 10px 0; margin: 1.2rem 0;
-    }
-    .company-block p { font-size: 0.9rem; line-height: 1.75; color: var(--ink-soft); margin: 0; }
-    .company-block strong { color: var(--ink); font-weight: 700; }
-
-    .rights-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; margin-top: 1.2rem; margin-bottom: 0.8rem; }
-    .right-item {
-      background: var(--cream); border: 1px solid var(--line);
-      padding: 1rem 1.1rem; border-radius: 10px;
-      font-size: 0.9rem; color: var(--ink-soft); line-height: 1.55;
-    }
-    .right-item strong { display: block; color: var(--terra-dark); font-size: 0.75rem; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 0.25rem; font-weight: 700; }
-
-    footer { background: var(--ink); padding: 70px 4vw 40px; color: rgba(250,246,239,0.65); }
-    .footer-inner { max-width: 1240px; margin: 0 auto; }
-    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 4rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(250,246,239,0.1); }
-    .footer-brand h2 { font-family: var(--font-display); font-size: 2.2rem; color: var(--cream); margin-bottom: 0.8rem; font-weight: 600; }
-    .footer-brand h2 span { color: var(--terra-light); font-style: italic; }
-    .footer-brand p { font-size: 0.94rem; color: rgba(250,246,239,0.55); line-height: 1.7; max-width: 340px; margin-bottom: 1.4rem; }
-    .footer-official { background: rgba(184,164,137,0.08); border-left: 3px solid var(--terra-light); padding: 1rem 1.2rem; border-radius: 0 12px 12px 0; }
-    .footer-official-title { font-family: var(--font-body); font-size: 0.7rem; color: var(--terra-light); letter-spacing: 2px; text-transform: uppercase; font-weight: 700; margin-bottom: 0.6rem; }
-    .footer-official p { font-size: 0.84rem; color: rgba(250,246,239,0.65); line-height: 1.7; }
-    .footer-official strong { color: var(--cream); font-weight: 600; }
-    .footer-col h4 { font-family: var(--font-display); font-size: 1.1rem; color: var(--terra-light); margin-bottom: 1.2rem; font-weight: 600; }
-    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
-    .footer-col ul a { font-size: 0.92rem; color: rgba(250,246,239,0.55); text-decoration: none; transition: color 0.25s; }
-    .footer-col ul a:hover { color: var(--terra-light); }
-    .footer-bottom { padding-top: 2rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1.5rem; }
-    .footer-legal p { font-size: 0.78rem; color: rgba(250,246,239,0.4); line-height: 1.7; }
-    .footer-legal strong { color: rgba(250,246,239,0.7); font-weight: 500; }
-    .footer-policy-links { display: flex; gap: 1.5rem; }
-    .footer-policy-links a { font-size: 0.78rem; color: rgba(250,246,239,0.4); text-decoration: none; }
-    .footer-policy-links a:hover { color: var(--terra-light); }
-
-    @media (max-width: 900px) {
-      .footer-top { grid-template-columns: 1fr; gap: 2.5rem; }
-      .rights-grid { grid-template-columns: 1fr; }
-      .page-header-inner { padding: 0 1rem; }
-    }
-    @media (max-width: 580px) {
-      .content { padding: 3rem 1.4rem 5rem; }
-      .privacy-card { padding: 1.8rem 1.4rem; }
-      .page-header { padding: 120px 4vw 50px; }
-    }
+    body { font-family: var(--font-body); background: var(--bg); color: var(--ink); min-height: 100vh; display: flex; flex-direction: column; }
+    .page-header { background: var(--white); border-bottom: 1px solid var(--line); padding: 1.4rem 4vw; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+    .header-brand { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+    .header-badge { width: 44px; height: 44px; background: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-size: 16px; color: var(--accent-light); font-weight: 800; }
+    .header-name { font-family: var(--font-display); font-size: 1.15rem; color: var(--primary-dark); font-weight: 800; letter-spacing: -0.3px; }
+    .header-name span { color: var(--accent-dark); font-weight: 500; }
+    .header-back { font-family: var(--font-body); font-size: 0.82rem; font-weight: 500; color: var(--ink-soft); text-decoration: none; letter-spacing: 1px; text-transform: uppercase; transition: color 0.25s; }
+    .header-back:hover { color: var(--primary); }
+    main { flex: 1; max-width: 880px; margin: 3rem auto; padding: 0 4vw; width: 100%; }
+    .content-box { background: var(--white); padding: 3.5rem 3rem; border-radius: 16px; box-shadow: 0 4px 24px rgba(95,107,60,0.06); }
+    h1.title { font-family: var(--font-display); font-size: clamp(2.4rem, 5vw, 3.4rem); letter-spacing: -1.5px; line-height: 1.05; color: var(--primary-dark); font-weight: 800; margin-bottom: 0.5rem; }
+    .last-updated { font-family: var(--font-body); font-size: 0.85rem; color: var(--grey); margin-bottom: 2rem; }
+    .company-block { background: var(--bg); border-left: 4px solid var(--primary); padding: 1.3rem 1.6rem; border-radius: 0 8px 8px 0; margin-bottom: 2.5rem; }
+    .company-block p { font-family: var(--font-body); font-size: 0.96rem; color: var(--primary-dark); line-height: 1.7; }
+    .company-block strong { color: var(--primary-deep); font-weight: 700; }
+    h2.section-h { font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; color: var(--primary-dark); letter-spacing: -0.3px; margin-top: 2.2rem; margin-bottom: 0.8rem; text-transform: uppercase; display: flex; align-items: center; gap: 0.6rem; }
+    h2.section-h::before { content: ''; display: inline-block; width: 6px; height: 22px; background: var(--accent); border-radius: 2px; }
+    p { font-family: var(--font-body); font-size: 1rem; line-height: 1.75; color: var(--ink-soft); margin-bottom: 0.6rem; }
+    ul { list-style: none; padding-left: 0.4rem; margin: 0.6rem 0; }
+    ul li { font-family: var(--font-body); font-size: 1rem; line-height: 1.75; color: var(--ink-soft); padding-left: 1.4rem; position: relative; margin-bottom: 0.3rem; }
+    ul li::before { content: '▸'; position: absolute; left: 0; top: 0; color: var(--accent-dark); font-size: 0.8rem; }
+    a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { color: var(--accent-dark); }
+    .internal-copyright { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); font-family: var(--font-body); font-size: 0.82rem; color: var(--grey); text-align: center; }
+    footer.page-footer { background: var(--primary-deep); color: rgba(255,255,255,0.78); padding: 2.5rem 4vw; text-align: center; }
+    footer.page-footer p { font-family: var(--font-body); font-size: 0.9rem; color: rgba(255,255,255,0.65); line-height: 1.7; margin-bottom: 0.3rem; }
+    footer.page-footer strong { color: var(--white); font-weight: 700; }
+    footer.page-footer .footer-line2 { font-family: var(--font-body); font-size: 0.78rem; color: rgba(255,255,255,0.5); letter-spacing: 0.3px; margin-top: 0.8rem; }
+    @media (max-width: 700px) { .content-box { padding: 2.2rem 1.5rem; } .header-name { font-size: 0.95rem; } .header-back { font-size: 0.74rem; } main { margin: 1.5rem auto; } }
   </style>
 </head>
 <body>
-
-<nav>
-  <a href="../" class="nav-logo">
-    <div class="nav-logo-badge">U</div>
-    <div class="nav-logo-text">Uaitere <span>Decorações</span></div>
-  </a>
-  <a href="../" class="nav-back">← Voltar ao site</a>
-</nav>
-
-<div class="page-header">
-  <div class="page-header-inner">
-    <div class="page-header-kicker">Legal</div>
-    <h1>Política de <em>Privacidade</em></h1>
-    <div class="page-header-meta">CNPJ: 42.533.633/0002-96</div>
+<header class="page-header">
+  <a href="/" class="header-brand"><div class="header-badge">UD</div>
+    <div class="header-name">Uaitere <span>Decorações</span></div></a>
+  <a href="/" class="header-back">← Voltar ao site</a>
+</header>
+<main>
+  <div class="content-box">
+    <h1 class="title">POLÍTICA DE PRIVACIDADE</h1>
+    <p class="last-updated">Última atualização: maio de 2026</p>
+    <div class="company-block"><p><strong>UAITERE DECORACOES LTDA</strong> | CNPJ: 42.533.633/0002-96<br>
+      PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154 – ALTO – TERESOPOLIS - RJ – CEP: 25.961-025<br>
+      E-mail: EXPANDER@EXPANDERCONT.COM.BR | Tel: (21) 2643-3311</p></div>
+    <h2 class="section-h">1. Quem somos</h2>
+    <p>A UAITERE DECORACOES LTDA, inscrita no CNPJ sob o nº 42.533.633/0002-96, com sede em PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154, ALTO, TERESOPOLIS - RJ, CEP 25.961-025, é responsável pelo tratamento dos dados pessoais coletados neste site.</p>
+    <h2 class="section-h">2. Dados que coletamos</h2>
+    <p>Ao utilizar nosso formulário de contato, podemos coletar:</p>
+    <ul><li>Nome completo</li><li>Número de telefone</li><li>Endereço de e-mail</li><li>Informações sobre móveis, iluminação ou decoração de interesse</li><li>Dados técnicos de navegação</li></ul>
+    <h2 class="section-h">3. Finalidade do tratamento</h2>
+    <p>Os dados coletados são utilizados exclusivamente para responder às solicitações, estabelecer contato comercial e enviar informações sobre nossos produtos e serviços quando autorizado.</p>
+    <h2 class="section-h">4. Compartilhamento de dados</h2>
+    <p>Não compartilhamos, vendemos ou cedemos seus dados pessoais a terceiros, exceto quando exigido por lei ou ordem judicial.</p>
+    <h2 class="section-h">5. Segurança</h2>
+    <p>Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados contra acesso não autorizado, perda ou divulgação indevida.</p>
+    <h2 class="section-h">6. Seus direitos (LGPD)</h2>
+    <p>Conforme a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você pode a qualquer momento solicitar acesso, correção, exclusão ou portabilidade dos seus dados, entrando em contato pelo e-mail <a href="mailto:EXPANDER@EXPANDERCONT.COM.BR">EXPANDER@EXPANDERCONT.COM.BR</a>.</p>
+    <h2 class="section-h">7. Cookies</h2>
+    <p>Utilizamos cookies para melhorar a experiência de navegação. Você pode controlar o uso de cookies pelas configurações do seu navegador.</p>
+    <h2 class="section-h">8. Retenção de dados</h2>
+    <p>Mantemos seus dados apenas pelo tempo necessário para as finalidades descritas ou para cumprimento de obrigações legais.</p>
+    <h2 class="section-h">9. Atualizações desta política</h2>
+    <p>Podemos revisar esta política periodicamente. Alterações serão comunicadas nesta página com atualização da data de revisão.</p>
+    <h2 class="section-h">10. Contato do controlador</h2>
+    <p>Para dúvidas ou solicitações relacionadas à privacidade:</p>
+    <p>E-mail: <a href="mailto:EXPANDER@EXPANDERCONT.COM.BR">EXPANDER@EXPANDERCONT.COM.BR</a><br>Telefone: (21) 2643-3311<br>Endereço: PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154 – ALTO – TERESOPOLIS - RJ</p>
+    <div class="internal-copyright">© 2026 UAITERE DECORACOES LTDA – CNPJ 42.533.633/0002-96 – Todos os direitos reservados.</div>
   </div>
-</div>
-
-<div class="content">
-
-  <div class="update-badge">Última atualização: 23 de abril de 2026</div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">01 —</span>
-      <h2 class="card-title">Informações Gerais</h2>
-    </div>
-    <p>Esta Política de Privacidade é aplicada pela empresa responsável pelo tratamento dos dados pessoais coletados neste site, em conformidade com a <strong>Lei Geral de Proteção de Dados — Lei nº 13.709/2018 (LGPD)</strong>.</p>
-    <div class="company-block">
-      <p><strong>UAITERE DECORACOES LTDA</strong><br>
-      CNPJ: <strong>42.533.633/0002-96</strong><br>
-      PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154<br>
-      ALTO — TERESOPOLIS — RJ — CEP: 25.961-025<br>
-      Telefone: (21) 2643-3311<br>
-      E-mail: EXPANDER@EXPANDERCONT.COM.BR</p>
-    </div>
-    <p>A base legal para o tratamento de dados é o <strong>legítimo interesse</strong> da empresa e o <strong>consentimento</strong> do titular, conforme o art. 7º da LGPD. Esta política se aplica a todos que acessam este site ou entram em contato com nossa loja.</p>
-  </div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">02 —</span>
-      <h2 class="card-title">Dados Coletados</h2>
-    </div>
-    <p>Ao interagir com nosso site ou entrar em contato conosco, podemos coletar os seguintes dados pessoais:</p>
-    <ul>
-      <li>Nome completo</li>
-      <li>Número de telefone</li>
-      <li>Endereço de e-mail</li>
-      <li>Tipo de produto ou ambiente de interesse (sala, quarto, banheiro, iluminação etc.)</li>
-      <li>Preferências de decoração e estilo informadas durante o atendimento</li>
-      <li>Histórico de consultas, pedidos especiais e interações com nossa loja</li>
-      <li>Dados de navegação (endereço IP, páginas visitadas, dispositivo utilizado)</li>
-    </ul>
-    <p>Coletamos apenas os dados estritamente necessários para oferecer um atendimento de qualidade. Não solicitamos documentos de identidade, dados financeiros nem informações sensíveis pelo site.</p>
-  </div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">03 —</span>
-      <h2 class="card-title">Finalidade do Tratamento</h2>
-    </div>
-    <p>Os dados pessoais coletados são utilizados exclusivamente para:</p>
-    <ul>
-      <li>Responder dúvidas sobre produtos disponíveis — móveis, iluminação, enxoval e artesanatos</li>
-      <li>Verificar disponibilidade de itens em estoque e informar o cliente</li>
-      <li>Oferecer consultoria de decoração personalizada para o ambiente do cliente</li>
-      <li>Registrar e gerenciar pedidos especiais realizados na loja ou pelo formulário de contato</li>
-      <li>Orientar o cliente sobre visitas presenciais à loja em Teresópolis/RJ</li>
-      <li>Enviar informações sobre novidades da coleção, quando expressamente autorizado</li>
-      <li>Cumprir obrigações legais e regulatórias aplicáveis ao comércio varejista</li>
-    </ul>
-  </div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">04 —</span>
-      <h2 class="card-title">Armazenamento e Segurança</h2>
-    </div>
-    <p>Os dados pessoais coletados são armazenados com medidas técnicas e organizacionais adequadas para protegê-los contra acesso não autorizado, alteração, divulgação indevida ou destruição.</p>
-    <p>Retemos os dados pelo tempo necessário para o cumprimento das finalidades descritas nesta política, ou pelo prazo mínimo exigido pela legislação brasileira aplicável ao comércio varejista e às obrigações fiscais da empresa.</p>
-    <p>Após o prazo necessário, os dados são eliminados ou anonimizados, em conformidade com as disposições da LGPD.</p>
-  </div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">05 —</span>
-      <h2 class="card-title">Compartilhamento de Dados</h2>
-    </div>
-    <p><strong>Não compartilhamos, vendemos nem cedemos seus dados pessoais a terceiros</strong> para fins comerciais ou de marketing sem o seu consentimento.</p>
-    <p>O compartilhamento de dados pode ocorrer, de forma restrita, apenas nas seguintes situações:</p>
-    <ul>
-      <li>Com provedores de tecnologia que auxiliam na operação do site, sob contrato e obrigação de confidencialidade</li>
-      <li>Com prestadores de serviços de entrega ou logística, quando necessário para cumprir um pedido do cliente</li>
-      <li>Para cumprimento de determinação legal, ordem judicial ou requisição fundamentada de autoridade competente</li>
-    </ul>
-  </div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">06 —</span>
-      <h2 class="card-title">Seus Direitos</h2>
-    </div>
-    <p>Em conformidade com os arts. 17 a 22 da LGPD, você tem os seguintes direitos em relação aos seus dados pessoais tratados pela Uaitere Decorações:</p>
-    <div class="rights-grid">
-      <div class="right-item"><strong>Confirmação</strong>Confirmar se realizamos o tratamento dos seus dados pessoais</div>
-      <div class="right-item"><strong>Acesso</strong>Acessar a cópia completa dos seus dados que possuímos</div>
-      <div class="right-item"><strong>Correção</strong>Corrigir dados incompletos, inexatos ou desatualizados</div>
-      <div class="right-item"><strong>Anonimização</strong>Solicitar anonimização, bloqueio ou eliminação de dados desnecessários</div>
-      <div class="right-item"><strong>Portabilidade</strong>Receber seus dados em formato estruturado e legível por máquina</div>
-      <div class="right-item"><strong>Revogação</strong>Revogar o consentimento dado a qualquer momento, sem ônus</div>
-    </div>
-    <p>Para exercer qualquer um desses direitos, entre em contato pelo e-mail <strong>EXPANDER@EXPANDERCONT.COM.BR</strong> ou pelo telefone <strong>(21) 2643-3311</strong>. Responderemos em prazo razoável, conforme exigido pela LGPD.</p>
-  </div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">07 —</span>
-      <h2 class="card-title">Contato do Responsável</h2>
-    </div>
-    <p>O controlador responsável pelo tratamento dos dados pessoais é:</p>
-    <div class="company-block">
-      <p><strong>UAITERE DECORACOES LTDA</strong><br>
-      PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154 — ALTO — TERESOPOLIS – RJ — CEP: 25.961-025<br>
-      E-mail: <strong>EXPANDER@EXPANDERCONT.COM.BR</strong><br>
-      Telefone: <strong>(21) 2643-3311</strong></p>
-    </div>
-    <p>Atendemos solicitações relacionadas à LGPD em horário comercial: <strong>Segunda a Sábado, das 09h às 18h</strong>. Domingos das 09h às 13h.</p>
-  </div>
-
-  <div class="privacy-card">
-    <div class="card-header">
-      <span class="card-num">08 —</span>
-      <h2 class="card-title">Alterações desta Política</h2>
-    </div>
-    <p>Esta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças nas nossas práticas de tratamento de dados ou na legislação aplicável.</p>
-    <p>Recomendamos que você acesse esta página regularmente. A data da última atualização estará sempre indicada no início desta página. O uso continuado do site após eventuais alterações implica a aceitação da política revisada.</p>
-    <p>Em caso de alterações relevantes que afetem significativamente seus direitos, buscaremos comunicá-lo pelos meios de contato disponíveis.</p>
-  </div>
-
-</div>
-
-<footer>
-  <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <h2>Uaitere <span>Decorações</span></h2>
-        <p>Loja de móveis, decoração, iluminação, cama, mesa, banho e artesanatos em Teresópolis – RJ.</p>
-        <div class="footer-official">
-          <div class="footer-official-title">Dados Oficiais da Empresa</div>
-          <p><strong>UAITERE DECORACOES LTDA</strong><br>
-          CNPJ: <strong>42.533.633/0002-96</strong><br>
-          PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154<br>
-          ALTO – TERESOPOLIS – RJ<br>
-          CEP: 25.961-025<br>
-          Tel: (21) 2643-3311<br>
-          E-mail: EXPANDER@EXPANDERCONT.COM.BR</p>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Coleção</h4>
-        <ul>
-          <li><a href="../#servicos">Móveis</a></li>
-          <li><a href="../#servicos">Iluminação</a></li>
-          <li><a href="../#servicos">Cama, Mesa e Banho</a></li>
-          <li><a href="../#servicos">Suvenires</a></li>
-          <li><a href="../#servicos">Mercadorias</a></li>
-          <li><a href="../#servicos">Atendimento</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Institucional</h4>
-        <ul>
-          <li><a href="../#sobre">Sobre Nós</a></li>
-          <li><a href="../#depoimentos">Clientes</a></li>
-          <li><a href="../#contato">Contato</a></li>
-          <li><a href="../privacy/">Política de Privacidade</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-legal">
-        <p>© 2026 <strong>UAITERE DECORACOES LTDA</strong> — Todos os direitos reservados.</p>
-        <p>CNPJ: <strong>42.533.633/0002-96</strong> · PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154, ALTO, TERESOPOLIS – RJ, CEP: 25.961-025 · Tel: (21) 2643-3311</p>
-      </div>
-      <div class="footer-policy-links">
-        <a href="../privacy/">Privacidade</a>
-      </div>
-    </div>
-  </div>
+</main>
+<footer class="page-footer">
+  <p>© 2026 <strong>UAITERE DECORACOES LTDA</strong> – Todos os direitos reservados.</p>
+  <p class="footer-line2">CNPJ: <strong>42.533.633/0002-96</strong> · PC HIGINO DA SILVEIRA, 161, LOJA 143 E 154, ALTO, TERESOPOLIS - RJ, CEP: 25.961-025 · Tel: (21) 2643-3311</p>
 </footer>
-
 </body>
 </html>
